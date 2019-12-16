@@ -23,7 +23,9 @@ header {
 	grid-template-columns: 1fr 450px 1fr;
 	grid-template-rows: 100px;
 	align-items: center;
-	padding: 0 3%;}
+	padding: 0 3%;
+}
+
 
 header ul {
 	justify-self: end;}
@@ -64,8 +66,9 @@ header nav a:first-of-type {
 
 #hero div {
 	position: relative;
-	top: 115px;
+	top: 85px;
 	display: inline-block;
+	border: 1px solid #bbb;
 	padding: 40px;
 	background: rgba(0,0,0,0.55);}
 
@@ -89,43 +92,43 @@ header nav a:first-of-type {
 
 #searches a {
 	display: block;
-	height: 400px;
+	height: 200px;
 	max-width: 100%;
 	border: 1px solid black;
 	text-decoration: none;}
 
 #searches a span:nth-of-type(1) {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 28px;
+	font-size: 22px;
 	text-transform: uppercase;
-text-shadow: 0 0 5px #111;
-
+	text-shadow: 0 0 5px #111;
 }
 
 #searches a span:nth-of-type(2) {
 	font-family: 'Ubuntu', sans-serif;
-
-	font-size: 58px;
+	font-size: 48px;
 	line-height: 1;
-
-color: #FFFFFF;
-text-shadow: 0 0 5px #111;}
+	color: #FFFFFF;
+	text-shadow: 0 0 5px #111;
+}
 
 #searches a div {
-		top: 85px;
-		padding: 25px 0;
-		background: rgba(0,0,0,0.45);}
-
+	top: 35px;
+	padding: 25px 0;
+	background: rgba(0,0,0,0.65);
+}
 
 #apartments-for-rent {
 	background: url('../images/apartments-for-rent.jpg');
 	background-size: cover;
+	background-position: 50% 50%;
 	text-align: center;
 	color: #fff;}
 
 #condos-for-sale {
 	background: url('../images/condos-for-sale.jpg');
 	background-size: cover;
+	background-position: 50% 50%;
 	text-align: center;
 	color: #fff;}
 
@@ -225,7 +228,7 @@ text-shadow: 0 0 5px #111;}
 
 #thumbnails {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 314.5px);
+	grid-template-columns: repeat(auto-fill, 22%);
 	grid-column-gap: 3%;
 	grid-row-gap: 50px;
 	padding: 50px 3%;
@@ -250,38 +253,17 @@ text-shadow: 0 0 5px #111;}
 	width: 100%;
 	bottom: 0;}
 
-#luxury-condo-developments {
-	background: url('../images/home/luxury-condo-developments.png');}
 
-#boston-office-space {
-	background: url('../images/home/boston-office-space.png');}
 
 #retail-space {
-	background: url('../images/home/retail-space.png');}
+	background: url('../images/retail-space.png');
+	background-size: cover;
+}
 
-#multi-family {
-	background: url('../images/home/multi-family.png');}
-
-#in-the-community {
-	background: url('../images/home/in-the-community.png');}
-
-#real-estate-blog {
-	background: url('../images/home/real-estate-blog.png');}
-
-#search-all-of-massachusetts {
-	background: url('../images/home/search-all-of-massachusetts.png');}
-
-#tenant-representation {
-	background: url('../images/home/tenant-representation.png');}
-
-#ten31-exchanges {
-	background: url('../images/home/1031-exchanges.png');}
-
-#recommended-searches {
-	background: url('../images/home/recommended-searches.png');}
-
-#boston-neighborhoods {
-	background: url('../images/home/boston-neighborhoods.png');}
+#about-development {
+	background: url('../images/about-development.png');
+	background-size: cover;
+}
 
 
 
@@ -327,12 +309,66 @@ text-shadow: 0 0 5px #111;}
 
 
 
+
+
+
+
+
+section.normal {
+
+	background: #eee;
+	padding: 3%;
+
+	h1 {
+		font-size: 32px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	p {
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 2;
+	}
+
+	p+p {margin-top: 25px;}
+
+	img {
+		max-width: 600px;
+		border: 5px solid #fff;
+	}
+
+	img.left {
+		float: left;
+		margin: 0 35px 35px 0;
+	}
+
+	img.right {
+		float: right;
+		margin: 0 0 35px 35px;
+	}
+
+	div+div {margin-top: 50px;}	
+
+}
+
+
+
+.clear {
+	display: block;
+	clear: both;
+}
+
+
+
 footer {
 	padding: 50px 3%;
 	color: #fff;
 	display: grid;
 	grid-template-columns: 500px auto;
 	font-family: 'Open Sans', sans-serif;
+	clear: both;
 	background: black;}
 
 footer ul li {
@@ -340,7 +376,7 @@ footer ul li {
 
 footer ul li a {
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 	border-right: 1px solid #999;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;

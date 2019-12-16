@@ -18,8 +18,8 @@
 
          <section id="hero">
             <div>
-                <span>Heading goes here!</span>
-                <p>First sentence describing what this site is about, what does it offer.<br> Second sentence describing why they should care, what's in it for them.</p>
+                <span>Exclusive Listings for Boulevard on the<br> Greenway - 110 Broad Street Boston</span>
+                <p>Here you will find information on listings for condos for sale,<br> apartments for rent, and one of the premier retail space listings in the city.</p>
             </div>
          </section>
 
@@ -28,14 +28,14 @@
             <a href="<?php echo $webPath; ?>search" id="apartments-for-rent">
                 <div>
                     <span>Click to Search</span>
-                    <span>Apartments <br>For Rent</span>
+                    <span>Apartments For Rent</span>
                 </div>
             </a>
 
             <a href="<?php echo $webPath; ?>apartments" id="condos-for-sale">
                 <div>
                     <span>Click to Search</span>
-                    <span>Condos <br>For Sale</span>
+                    <span>Condos For Sale</span>
                 </div>
             </a>
 
@@ -55,12 +55,12 @@
 
             <div>
 
-                <h2>News</h2>
+                <h2>Boulevard on the Greenway News</h2>
 
                 <hr>
 
                 <ul>
-                    <li><a href="">History of the Rose Kennedy Greenway</a></li>
+                    <li><a href="blog/history-of-the-rose-kennedy-greenway">History of the Rose Kennedy Greenway</a></li>
                     <li><a href="">Historic Façade of Bulfinch-Designed Warehouse Preserved in New Luxury Condo Building</a></li>
                     <li><a href="">Boulevard on the Greenway Offers Exquisite Luxury Apartment Homes</a></li>
                     <li><a href="">Boulevard on the Greenway Offering Exquisite Luxury Condos for Sale</a></li>
@@ -76,9 +76,9 @@
 
         <section id="thumbnails">
 
-            <a href="<?php echo $webPath; ?>massachusetts-condo-developments" id="luxury-condo-developments"><span>About the Development</span></a>
+            <a href="<?php echo $webPath; ?>about-the-development" id="about-development"><span>About the Development</span></a>
 
-            <a href="<?php echo $webPath; ?>massachusetts-condo-developments" id="luxury-condo-developments"><span>About the Retail Space</span></a>
+            <a href="<?php echo $webPath; ?>about-the-retail-space" id="retail-space"><span>About the Retail Space</span></a>
 
         </section>
 

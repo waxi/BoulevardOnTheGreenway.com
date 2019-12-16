@@ -1,6 +1,6 @@
 <footer>
     <div>
-        <a href="<?php echo $webPath; ?>" class="home"><img src="<?php echo $imgPath; ?>logo-reverse.png" alt="SEO"></a>
+        <a href="<?php echo $webPath; ?>" class="home logo"><img src="<?php echo $imgPath; ?>logo-reverse.png" alt="SEO"></a>
         <a href="tel:1-617-247-1933" class="phone">(617) 247-1933</a>
         <span class="address">581 Boylston St, Boston MA 02116</span>
         <p class="languages">Languages we speak:</p>
