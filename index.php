@@ -61,12 +61,12 @@
 
                 <ul>
                     <li><a href="blog/history-of-the-rose-kennedy-greenway">History of the Rose Kennedy Greenway</a></li>
-                    <li><a href="">Historic Façade of Bulfinch-Designed Warehouse Preserved in New Luxury Condo Building</a></li>
-                    <li><a href="">Boulevard on the Greenway Offers Exquisite Luxury Apartment Homes</a></li>
-                    <li><a href="">Boulevard on the Greenway Offering Exquisite Luxury Condos for Sale</a></li>
-                    <li><a href="">First Automated Garage Parking System in New England Opens at Boulevard on the Greenway</a></li>
-                    <li><a href="">Penthouse at Boulevard on the Greenway Sells for $5.835 Million</a></li>
-                    <li><a href="">Boulevard on the Greenway Offers a Prime Location for Discerning Bostonians</a></li>
+                    <li><a href="blog/historic-facade-of-bulfinch-designed-warehouse-preserved-in-new-luxury-condo-building">Historic Façade of Bulfinch-Designed Warehouse Preserved in New Luxury Condo Building</a></li>
+                    <li><a href="blog/boulevard-on-the-greenway-offers-exquisite-luxury-apartment-homes">Boulevard on the Greenway Offers Exquisite Luxury Apartment Homes</a></li>
+                    <li><a href="blog/boulevard-on-the-greenway-offering-exquisite-luxury-condos-for-sale">Boulevard on the Greenway Offering Exquisite Luxury Condos for Sale</a></li>
+                    <li><a href="blog/first-automated-garage-parking-system-in-new-england-opens-at-boulevard-on-the-greenway">First Automated Garage Parking System in New England Opens at Boulevard on the Greenway</a></li>
+                    <li><a href="blog/penthouse-at-boulevard-on-the-greenway-sells-for-5-million">Penthouse at Boulevard on the Greenway Sells for $5.835 Million</a></li>
+                    <li><a href="blog/boulevard-on-the-greenway-offers-a-prime-location-for-discerning-bostonians">Boulevard on the Greenway Offers a Prime Location for Discerning Bostonians</a></li>
                 </ul>
 
             </div>

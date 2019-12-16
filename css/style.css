@@ -331,6 +331,18 @@ section.normal h1 {
   margin-bottom: 50px;
 }
 
+section.normal ul {
+  margin: 20px 0;
+  left: 20px;
+}
+
+section.normal ul li {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2;
+  font-style: italic;
+}
+
 section.normal p {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
@@ -699,24 +711,6 @@ footer .copy {
     text-align: center;
   }
 }
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
