@@ -10,17 +10,17 @@
 		break;
 
 		case "pro":
-			$webPath = "https://www.BoulevardOnTheGreenway.com/";
-			$imgPath = "https://www.BoulevardOnTheGreenway.com/images/";
-			$cssPath = "https://www.BoulevardOnTheGreenway.com/css/";
-			$jsPath  = "https://www.BoulevardOnTheGreenway.com/js/";
+			$webPath = "https://BoulevardOnTheGreenway.com/";
+			$imgPath = "https://BoulevardOnTheGreenway.com/images/";
+			$cssPath = "https://BoulevardOnTheGreenway.com/css/";
+			$jsPath  = "https://BoulevardOnTheGreenway.com/js/";
 		break;
 
 		default:
-			$webPath = "https://www.BoulevardOnTheGreenway.com/";
-			$imgPath = "https://www.BoulevardOnTheGreenway.com/images/";
-			$cssPath = "https://www.BoulevardOnTheGreenway.com/css/";
-			$jsPath  = "https://www.BoulevardOnTheGreenway.com/js/";
+			$webPath = "https://BoulevardOnTheGreenway.com/";
+			$imgPath = "https://BoulevardOnTheGreenway.com/images/";
+			$cssPath = "https://BoulevardOnTheGreenway.com/css/";
+			$jsPath  = "https://BoulevardOnTheGreenway.com/js/";
 		break;
 
 	};
