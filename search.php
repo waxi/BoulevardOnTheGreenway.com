@@ -15,6 +15,17 @@
 
     $hideFooter = true;
 
+    if (isset($_GET['t'])){
+        $formType = $_GET['t'];
+        if ($formType !== '' && $formType === 'sales' || $formType === 'rentals' ) {
+            $price = $formType;
+        } else {
+            $price = 'sales';
+        };
+    } else {
+        $price = 'sales';
+    };
+
     require_once('inc/header.php');
 
 ?>
@@ -27,11 +38,11 @@
 		
         <p class="important" style="text-align: center;">Fill in the boxes below and the system will narrow the list to properties that match your search criteria.<br> E-mail us or call 617-247-1933 to view any listings. Listings are updated daily!</p>
 
-        <form class="triple">
+        <form>
 
-            <input type="hidden" name="source" value="sales">
+            <input type="hidden" name="source" value="<?php echo $price; ?>">
 
-            <p class="status"></p>
+            <div class="status"></div>
 
             <fieldset>
 
@@ -119,8 +130,10 @@
                     <div>
 
                         <label>Price Range</label>
-                        <select name="minprice">
+                        <select name="min-price">
+
                             <option value="No minimum" selected="selected">No min</option>
+
                             <option value="$1,000">$1,000</option> 
                             <option value="$1,250">$1,250</option> 
                             <option value="$1,500">$1,500</option> 
@@ -157,7 +170,10 @@
                             <option value="$9,250">$9,250</option> 
                             <option value="$9,500">$9,500</option> 
                             <option value="$9,750">$9,750</option> 
-                            <option value="$10,000">$10,000</option> 
+                            <option value="$10,000">$10,000</option>                             
+
+                            <?php if ($price === 'sales') : ?>
+
                             <option value="$25,000">$25,000</option>
                             <option value="$50,000">$50,000</option>
                             <option value="$75,000">$75,000</option>
@@ -195,6 +211,9 @@
                             <option value="$8,000,000">$8,000,000</option> 
                             <option value="$9,000,000">$9,000,000</option> 
                             <option value="$10,000,000+">$10,000,000+</option> 
+
+                            <?php endif; ?>
+
                         </select>
 
                     </div>
@@ -202,8 +221,10 @@
                     <div>
 
                         <label>&nbsp;</label>
-                        <select name="maxprice">
+                        <select name="max-price">
+
                             <option value="No maximum" selected="selected">No max</option>
+
                             <option value="$1,000">$1,000</option> 
                             <option value="$1,250">$1,250</option> 
                             <option value="$1,500">$1,500</option> 
@@ -240,7 +261,10 @@
                             <option value="$9,250">$9,250</option> 
                             <option value="$9,500">$9,500</option> 
                             <option value="$9,750">$9,750</option> 
-                            <option value="$10,000">$10,000</option> 
+                            <option value="$10,000">$10,000</option>                             
+
+                            <?php if ($price === 'sales') : ?>
+
                             <option value="$25,000">$25,000</option>
                             <option value="$50,000">$50,000</option>
                             <option value="$75,000">$75,000</option>
@@ -278,6 +302,9 @@
                             <option value="$8,000,000">$8,000,000</option> 
                             <option value="$9,000,000">$9,000,000</option> 
                             <option value="$10,000,000+">$10,000,000+</option> 
+
+                            <?php endif; ?>
+
                         </select>
 
                     </div>
@@ -321,7 +348,7 @@
                     <div>
 
                         <label>Living Area (Sq Ft)</label>
-                        <select name="livingarea">
+                        <select name="living-area">
                             <option value="250" selected="selected">250</option>
                             <option value="500">500</option>
                             <option value="750">750</option>
@@ -355,11 +382,12 @@
                     <div>
 
                         <label>Property Type</label>
-                        <select name="property">
+                        <select name="property-type">
                             <option value="All" selected="selected">All</option>
                             <option value="Condos">Condos</option>
                             <option value="Single Families">Single Families</option>
                             <option value="Multi Families">Multi Families</option>
+                            <option value="Sales">Sales</option>
                             <option value="Rentals">Rentals</option>
                         </select>
 

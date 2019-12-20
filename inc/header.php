@@ -26,8 +26,8 @@
         <a href="<?php echo $webPath; ?>" class="logo"><img src="<?php echo $imgPath; ?>logo.png" alt="SEO"></a>
 
         <nav>
-            <a href="<?php echo $webPath; ?>search">Sales</a>
-            <a href="<?php echo $webPath; ?>apartments">Rentals</a>
+            <a href="<?php echo $webPath; ?>search?t=sales">Sales</a>
+            <a href="<?php echo $webPath; ?>search?t=rentals">Rentals</a>
             <a href="<?php echo $webPath; ?>contact">Contact</a>
         </nav>
 

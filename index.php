@@ -25,14 +25,14 @@
 
          <section id="searches">
 
-            <a href="<?php echo $webPath; ?>search" id="apartments-for-rent">
+            <a href="<?php echo $webPath; ?>search?t=rentals" id="apartments-for-rent">
                 <div>
                     <span>Click to Search</span>
                     <span>Apartments For Rent</span>
                 </div>
             </a>
 
-            <a href="<?php echo $webPath; ?>apartments" id="condos-for-sale">
+            <a href="<?php echo $webPath; ?>search?t=sales" id="condos-for-sale">
                 <div>
                     <span>Click to Search</span>
                     <span>Condos For Sale</span>

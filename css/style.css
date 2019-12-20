@@ -12,9 +12,6 @@ html,
 body {
   display: block;
   width: 100%;
-}
-
-body {
   background: #fff;
 }
 
@@ -375,6 +372,7 @@ section.normal div + div {
 section.forms {
   background: #eee;
   padding: 3%;
+  min-height: 500px;
 }
 
 section.forms h1 {
@@ -689,6 +687,26 @@ form button:hover {
   cursor: text;
 }
 
+.status p {
+  font-size: 28px !important;
+  font-weight: bold;
+  line-height: 1.5 !important;
+  text-align: center;
+}
+
+main.contact p {
+  text-align: center;
+}
+
+main.contact fieldset {
+  width: 100%;
+  min-height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */

@@ -8,8 +8,8 @@
     </div>
     <div>
         <ul>
-            <li><a href="<?php echo $webPath; ?>search">Sales</a></li>
-            <li><a href="<?php echo $webPath; ?>apartments">Rentals</a></li>
+            <li><a href="<?php echo $webPath; ?>search?t=sales">Sales</a></li>
+            <li><a href="<?php echo $webPath; ?>search?t=rentals">Rentals</a></li>
             <li><a href="<?php echo $webPath; ?>contact">Contact</a></li>
         </ul>
         <p class="copy">&#169; Boston City Properties, Inc. <?php echo date("Y"); ?></p>

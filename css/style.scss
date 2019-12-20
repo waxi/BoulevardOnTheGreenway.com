@@ -11,48 +11,54 @@
 html,
 body {
 	display: block;
-	width: 100%;}
-
-body {
+	width: 100%;
 	background: #fff;}
 
-
 header {
+
 	background: white;
 	display: grid;
 	grid-template-columns: 1fr 450px 1fr;
 	grid-template-rows: 100px;
 	align-items: center;
 	padding: 0 3%;
+
+	ul {
+		
+		justify-self: end;
+
+		li {display: inline-block;}
+
+	}
+
+	nav {
+
+		justify-self: center;
+		text-transform: uppercase;
+		
+		a {
+			text-decoration: none;
+			font-size: 18px;
+			border-right: 1px solid #999;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			color: #000;
+			padding-right: 25px;
+			padding-left: 25px;
+		}
+
+		a:last-of-type {
+			padding-right: 0;
+			border: none;
+		}
+
+		a:first-of-type {
+			padding-left: 0;
+		}
+
+	}
+
 }
-
-
-header ul {
-	justify-self: end;}
-
-header ul li {
-	display: inline-block;}
-
-header nav {
-	justify-self: center;
-	text-transform: uppercase;}
-
-header nav a {
-	text-decoration: none;
-	font-size: 18px;
-	border-right: 1px solid #999;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	color: #000;
-	padding-right: 25px;
-	padding-left: 25px;}
-
-header nav a:last-of-type {
-	padding-right: 0;
-	border: none;}
-
-header nav a:first-of-type {
-	padding-left: 0;}
 
 #hero {
 	text-align: center;
@@ -371,6 +377,7 @@ section.forms {
 
 	background: #eee;
 	padding: 3%;
+	min-height: 500px;
 
 	h1 {
 		font-size: 32px;
@@ -675,3 +682,21 @@ form {
   background-color: #eee;
   color: #aaa;
   cursor: text;}
+
+
+.status p {
+	font-size: 28px !important;
+	font-weight: bold;
+	line-height: 1.5 !important;
+	text-align: center;
+}
+
+
+main.contact p {
+	text-align: center;
+}
+
+main.contact fieldset {
+	width: 100%;
+	min-height: auto;
+}
