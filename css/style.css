@@ -15,6 +15,10 @@ body {
   background: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background: white;
   display: grid;
@@ -24,11 +28,11 @@ header {
   padding: 0 3%;
 }
 
-header ul {
+header .social-icons {
   justify-self: end;
 }
 
-header ul li {
+header .social-icons li {
   display: inline-block;
 }
 
@@ -38,7 +42,6 @@ header nav {
 }
 
 header nav a {
-  text-decoration: none;
   font-size: 18px;
   border-right: 1px solid #999;
   font-family: "Open Sans", sans-serif;
@@ -103,7 +106,6 @@ header nav a:first-of-type {
   height: 200px;
   max-width: 100%;
   border: 1px solid black;
-  text-decoration: none;
 }
 
 #searches a span:nth-of-type(1) {
@@ -193,53 +195,6 @@ header nav a:first-of-type {
   margin: 5px 0;
 }
 
-#intro ul li a {
-  text-decoration: none;
-}
-
-.person {
-  font-family: "Open Sans", sans-serif;
-  display: grid;
-  grid-column-gap: 3%;
-  align-items: start;
-  grid-template-columns: 60px 150px auto;
-  justify-items: start;
-}
-
-.person ul {
-  top: -5px;
-  width: 100%;
-  list-style: none;
-}
-
-.person ul li {
-  color: #333;
-  font-size: 14px;
-  margin: 5px 0;
-}
-
-.person ul li span {
-  display: inline;
-  font-weight: bold;
-}
-
-.person ul li:nth-of-type(1) {
-  margin-top: 0;
-  color: #0071b5;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.person ul li:nth-of-type(2) {
-  color: #000;
-  font-weight: bold;
-}
-
-.person p {
-  line-height: 1.5;
-  top: 10px;
-}
-
 #thumbnails {
   display: grid;
   grid-template-columns: repeat(auto-fill, 22%);
@@ -253,7 +208,6 @@ header nav a:first-of-type {
   width: 100%;
   height: 200px;
   border: 1px solid black;
-  text-decoration: none;
   display: inline-block;
 }
 
@@ -278,42 +232,6 @@ header nav a:first-of-type {
 #about-development {
   background: url("../images/about-development.png");
   background-size: cover;
-}
-
-.v2 {
-  background: #ddd;
-  padding: 50px 3%;
-}
-
-.v2 h1 {
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin-bottom: 25px;
-}
-
-.v2 p,
-.v2 ul {
-  font-size: 1.1em;
-  line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
-}
-
-.v2 .button {
-  background: url("../images/pages/boston-office-space.png");
-  background-size: cover;
-  background-position: 50%;
-  padding: 20px 20px 15px;
-  border-radius: 5px;
-  color: black;
-  display: block;
-  width: 400px;
-  height: 225px;
-  text-align: center;
-  text-decoration: none;
-  border: 5px solid #fff;
-  margin: 25px 0;
-  box-shadow: 0px 10px 10px -10px #000000, 5px 5px 10px 5px rgba(0, 0, 0, 0);
 }
 
 section.normal {
@@ -408,7 +326,6 @@ footer ul li {
 }
 
 footer ul li a {
-  text-decoration: none;
   font-size: 16px;
   border-right: 1px solid #999;
   font-family: "Open Sans", sans-serif;
@@ -425,12 +342,7 @@ footer ul li:last-of-type a {
   border: none;
 }
 
-footer > div:nth-of-type(2) {
-  justify-self: end;
-}
-
 footer a {
-  text-decoration: none;
   color: #fff;
 }
 
@@ -458,6 +370,10 @@ footer .copy {
   display: block;
   top: 90px;
   text-align: right;
+}
+
+footer > div:nth-of-type(2) {
+  justify-self: end;
 }
 
 form {
@@ -558,7 +474,7 @@ form button:hover {
 #deselectall {
   font-weight: bold;
   font-size: 10px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
   position: relative;
@@ -581,7 +497,7 @@ form button:hover {
   font-size: 10px;
   display: inline-block;
   margin: 0 10px;
-  font-family: Arial;
+  font-family: "Open Sans", sans-serif;
 }
 
 #options {
@@ -598,7 +514,7 @@ form button:hover {
 }
 
 .ms-container li span {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
 
@@ -703,6 +619,14 @@ main.contact fieldset {
   min-height: auto;
 }
 
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */

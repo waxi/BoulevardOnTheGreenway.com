@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="description" content="<?php echo $pageDescription; ?>">
     <meta name="keywords" content="<?php echo $pageKeywords; ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
     <title><?php echo $pageTitle; ?></title>
 
@@ -31,7 +31,7 @@
             <a href="<?php echo $webPath; ?>contact">Contact</a>
         </nav>
 
-        <ul>
+        <ul class="social-icons">
             <li>
                 <a href="https://www.facebook.com/BostonCityProperties">
                     <img src="<?php echo $imgPath; ?>facebook.png">
