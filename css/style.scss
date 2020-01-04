@@ -1,3 +1,5 @@
+/* VARIABLES */
+
 $fontFamily1: 'Open Sans', sans-serif;
 $fontFamily2: 'Ubuntu', sans-serif;
 $imgs: '../images/';
@@ -49,7 +51,18 @@ ul {
 	}
 }
 
+/* CLASSES */
+
+.hidden {
+	@media (max-width: 420px) {
+		display: none;
+	}
+}
+
+/* HEADER */
+
 header {
+
 	display: grid;
 	grid-template-columns: 1fr 450px 1fr;
 	grid-template-rows: 100px;
@@ -111,6 +124,8 @@ header {
 
 }
 
+/* HERO */
+
 #hero {
 
 	text-align: center;
@@ -170,6 +185,8 @@ header {
 
 
 }
+
+/* SEARCH THUMBNAILS */
 
 #searches {
 
@@ -245,7 +262,7 @@ header {
 
 }
 
-
+/* BOTTOM BLOCKS */
 
 #apartments-for-rent {
 	background: url($imgs+'apartments-for-rent.jpg');
@@ -455,6 +472,17 @@ section.forms {
 		font-size: 18px;
 		font-family: $fontFamily1;
 		line-height: 2;
+		text-align: center;
+	}
+
+	@media (max-width: 420px) { 
+		p {
+			line-height: 1.5;
+			margin-top: 25px;
+			br {
+				display: none;
+			}
+		}
 	}
 
 }
@@ -573,11 +601,14 @@ footer > div:nth-of-type(2) {
 	justify-self: end;}
 
 
+/* FORMS */
+
 form {
 
 	font-family: $fontFamily1;
 	max-width: 1200px;
 	margin: 50px auto;
+	display: block;
 
 	legend {
 		font-size: 24px;
@@ -592,10 +623,9 @@ form {
 		background: #ddd;
 		padding: 25px;
 		border: 1px solid black;
-		display: inline-block;
-		vertical-align: top;
+		display: block;
 		width: 50%;
-		min-height: 500px;
+		margin: 0 auto;
 	}
 
 	label {
@@ -631,9 +661,9 @@ form {
 		color: white;
 		padding: 20px;
 		border-radius: 3px;
-		font-size: 16px;
+		font-size: 14px;
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 10px;
 		font-family: $fontFamily1;
 		text-transform: uppercase;
 		transition: background 0.3s ease;
