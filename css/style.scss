@@ -1,7 +1,7 @@
 /* VARIABLES */
 
 $fontFamily1: 'Open Sans', sans-serif;
-$fontFamily2: 'Ubuntu', sans-serif;
+$fontFamily2: 'Raleway', sans-serif;;
 $imgs: '../images/';
 
 /* GLOBAL */
@@ -35,19 +35,19 @@ a:visited {
 
 p {
 	font-size: 18px;
-    font-family: $fontFamily1;
+    font-family: $fontFamily2;
     line-height: 1.75;
 }
 
 ul {
 
 	list-style-type: none;
-	font-family: $fontFamily1;
+	font-family: $fontFamily2;
 
 	li {
 		text-align: center;
 		font-size: 18px;
-		margin: 5px 0;
+		margin: 15px 0;
 	}
 }
 
@@ -57,6 +57,10 @@ iframe {
 	display: block;
 	margin: 25px auto;
 	border:1px solid black;
+}
+
+p + h2 {
+	margin-top: 50px;
 }
 
 /* CLASSES */
@@ -157,7 +161,7 @@ header {
 	span {
 		font-size: 42px;
 		display: block;
-		font-family: $fontFamily2;
+		font-family: $fontFamily1;
 		margin-bottom: 10px;
 	}
 
@@ -219,7 +223,7 @@ header {
 		}
 
 		span:nth-of-type(2) {
-			font-family: $fontFamily2;
+			font-family: $fontFamily1;
 			font-size: 48px;
 			line-height: 1;
 			color: #FFFFFF;
@@ -304,7 +308,7 @@ header {
 	justify-items: center;
 
 	h2 {
-		font-family: $fontFamily2;
+		font-family: $fontFamily1;
 		font-size: 32px;
 		text-align: center;
 		margin-bottom: 20px;
@@ -319,13 +323,21 @@ header {
 
 	p + p {margin-top: 30px;}
 
+	@media (max-width: 700px) {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		div {
+			padding: 0;
+		}
+	}
+
 	@media (max-width: 420px) { 
 		grid-template-columns: 1fr;
     	grid-column-gap: 0;
     	padding-bottom: 0;
     	div {
     		margin-bottom: 30px;
-    		padding: 0 15px;
+    		padding: 0;
     	}
     	div + div {
     		margin-top: 20px;
@@ -352,6 +364,11 @@ header {
 	grid-row-gap: 50px;
 	padding: 25px 0;
 	justify-items: center;
+
+	@media (max-width: 1000px) {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
 
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
@@ -421,7 +438,7 @@ section.normal {
 
 	p {
 		font-size: 18px;
-		font-family: $fontFamily1;
+		font-family: $fontFamily2;
 		line-height: 2;
 	}
 

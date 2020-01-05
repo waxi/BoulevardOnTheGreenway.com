@@ -11,7 +11,7 @@
 
     <title><?php echo $pageTitle; ?></title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
     <link href="<?php echo $cssPath; ?>style.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="<?php echo $imgPath; ?>icons/favicon.ico" type="image/x-icon">

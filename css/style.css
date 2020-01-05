@@ -29,19 +29,19 @@ a:visited {
 
 p {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.75;
 }
 
 ul {
   list-style-type: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 ul li {
   text-align: center;
   font-size: 18px;
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 iframe {
@@ -50,6 +50,10 @@ iframe {
   display: block;
   margin: 25px auto;
   border: 1px solid black;
+}
+
+p + h2 {
+  margin-top: 50px;
 }
 
 /* CLASSES */
@@ -151,7 +155,7 @@ header nav a:first-of-type {
 #hero span {
   font-size: 42px;
   display: block;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -217,7 +221,7 @@ header nav a:first-of-type {
 }
 
 #searches a span:nth-of-type(2) {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 48px;
   line-height: 1;
   color: #FFFFFF;
@@ -298,7 +302,7 @@ header nav a:first-of-type {
 }
 
 #intro h2 {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 32px;
   text-align: center;
   margin-bottom: 20px;
@@ -315,6 +319,16 @@ header nav a:first-of-type {
   margin-top: 30px;
 }
 
+@media (max-width: 700px) {
+  #intro {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #intro div {
+    padding: 0;
+  }
+}
 @media (max-width: 420px) {
   #intro {
     grid-template-columns: 1fr;
@@ -324,7 +338,7 @@ header nav a:first-of-type {
 
   #intro div {
     margin-bottom: 30px;
-    padding: 0 15px;
+    padding: 0;
   }
 
   #intro div + div {
@@ -352,6 +366,12 @@ header nav a:first-of-type {
   justify-items: center;
 }
 
+@media (max-width: 1000px) {
+  #thumbnails {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
 @media (max-width: 420px) {
   #thumbnails {
     grid-template-columns: 1fr;
@@ -415,7 +435,7 @@ section.normal ul li {
 
 section.normal p {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 2;
 }
 
@@ -865,7 +885,6 @@ main.contact fieldset {
     margin: 20px 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */

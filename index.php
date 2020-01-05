@@ -49,13 +49,9 @@
 
                 <h2>Boulevard on the Greenway Offers<br> Luxury Condo Living at its Finest</h2>
 
-                <hr>
-
                 <p>When it comes to luxury condo living on the waterfront in downtown Boston, you’d be hard-pressed to find something more exciting or exclusive than Boulevard on the Greenway. With just a few units left on the market, the building, which began being constructed in June 2016, offers a thoughtful mix of the old and the new. Modern architecture by Finegold Alexander Architects lends it a sophisticated and high-end urban allure while modifications to a more than 200-year-old warehouse on the site help to seamlessly blend aspects of Boston’s history into its design. Boston City Properties currently has listings in the building and we have expert agents that can help you obtain a unit in the development.  We have listed, sold & rented some of the most luxurious units in the building. Contact us for more information on current availability of condos for sale & apartments for rent.</p>
 
                 <h2>Boulevard on the Greenway News</h2>
-
-                <hr>
 
                 <ul>
                     <li><a href="blog/history-of-the-rose-kennedy-greenway">History of the Rose Kennedy Greenway</a></li>
@@ -72,8 +68,6 @@
             <div>
 
                 <h2>110 Broad Street<br> Virtual Tour</h2>
-
-                <hr>
 
                 <iframe width="853" height="480" src="https://my.matterport.com/show/?m=CsDGrKgzpWX" frameborder="0" allowfullscreen allow="vr"></iframe>
 
