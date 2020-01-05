@@ -77,10 +77,11 @@
 
                 <label>Message</label>              
                 <textarea name="message"></textarea>
+            
+                <button type="button">Send Message</button>  
 
             </fieldset>
 
-            <button type="button">Send Message</button>  
 
         </form>
 

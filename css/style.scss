@@ -51,6 +51,14 @@ ul {
 	}
 }
 
+iframe {
+	height: 400px;
+	max-width: 100%;
+	display: block;
+	margin: 25px auto;
+	border:1px solid black;
+}
+
 /* CLASSES */
 
 .hidden {
@@ -339,10 +347,10 @@ header {
 #thumbnails {
 
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 22%);
+	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 3%;
 	grid-row-gap: 50px;
-	padding: 50px 3%;
+	padding: 25px 0;
 	justify-items: center;
 
   @media (max-width: 420px) {
@@ -363,7 +371,7 @@ header {
 			font-family: $fontFamily1;
 			line-height: 1.25;
 			padding: 10px;
-			background: rgba(0,0,0,0.6);
+			background: rgba(0,0,0,0.7);
 			display: block;
 			position: absolute;
 			width: 100%;

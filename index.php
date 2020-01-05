@@ -53,10 +53,6 @@
 
                 <p>When it comes to luxury condo living on the waterfront in downtown Boston, you’d be hard-pressed to find something more exciting or exclusive than Boulevard on the Greenway. With just a few units left on the market, the building, which began being constructed in June 2016, offers a thoughtful mix of the old and the new. Modern architecture by Finegold Alexander Architects lends it a sophisticated and high-end urban allure while modifications to a more than 200-year-old warehouse on the site help to seamlessly blend aspects of Boston’s history into its design. Boston City Properties currently has listings in the building and we have expert agents that can help you obtain a unit in the development.  We have listed, sold & rented some of the most luxurious units in the building. Contact us for more information on current availability of condos for sale & apartments for rent.</p>
 
-            </div>
-
-            <div>
-
                 <h2>Boulevard on the Greenway News</h2>
 
                 <hr>
@@ -73,14 +69,22 @@
 
             </div>
 
-        </section>
+            <div>
 
+                <h2>110 Broad Street<br> Virtual Tour</h2>
 
-        <section id="thumbnails">
+                <hr>
 
-            <a href="<?php echo $webPath; ?>about-the-development" id="about-development"><span>About the Development</span></a>
+                <iframe width="853" height="480" src="https://my.matterport.com/show/?m=CsDGrKgzpWX" frameborder="0" allowfullscreen allow="vr"></iframe>
 
-            <a href="<?php echo $webPath; ?>about-the-retail-space" id="retail-space"><span>About the Retail Space</span></a>
+                <div id="thumbnails">
+                    <a href="<?php echo $webPath; ?>about-the-development" id="about-development"><span>About the Development</span></a>
+
+                    <a href="<?php echo $webPath; ?>about-the-retail-space" id="retail-space"><span>About the Retail Space</span></a>
+
+                </div>
+
+            </div>
 
         </section>
 
